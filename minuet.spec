@@ -4,7 +4,7 @@
 #
 Name     : minuet
 Version  : 20.08.2
-Release  : 1
+Release  : 2
 URL      : https://download.kde.org/stable/release-service/20.08.2/src/minuet-20.08.2.tar.xz
 Source0  : https://download.kde.org/stable/release-service/20.08.2/src/minuet-20.08.2.tar.xz
 Summary  : No detailed summary available
@@ -100,7 +100,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1602617910
+export SOURCE_DATE_EPOCH=1602649433
 mkdir -p clr-build
 pushd clr-build
 export GCC_IGNORE_WERROR=1
@@ -116,7 +116,7 @@ make  %{?_smp_mflags}
 popd
 
 %install
-export SOURCE_DATE_EPOCH=1602617910
+export SOURCE_DATE_EPOCH=1602649433
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/minuet
 cp %{_builddir}/minuet-20.08.2/COPYING %{buildroot}/usr/share/package-licenses/minuet/4cc77b90af91e615a64ae04893fdffa7939db84c
