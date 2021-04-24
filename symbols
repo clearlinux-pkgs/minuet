@@ -6,9 +6,6 @@ libminuetinterfaces.so.0.3.0:_ZN6Minuet13IUiController11qt_metacallEN11QMetaObje
 libminuetinterfaces.so.0.3.0:_ZN6Minuet13IUiController11qt_metacastEPKc
 libminuetinterfaces.so.0.3.0:_ZN6Minuet13IUiControllerC1EP7QObject
 libminuetinterfaces.so.0.3.0:_ZN6Minuet13IUiControllerC2EP7QObject
-libminuetinterfaces.so.0.3.0:_ZN6Minuet13IUiControllerD0Ev
-libminuetinterfaces.so.0.3.0:_ZN6Minuet13IUiControllerD1Ev
-libminuetinterfaces.so.0.3.0:_ZN6Minuet13IUiControllerD2Ev
 libminuetinterfaces.so.0.3.0:_ZN6Minuet16ISoundController11qt_metacallEN11QMetaObject4CallEiPPv
 libminuetinterfaces.so.0.3.0:_ZN6Minuet16ISoundController11qt_metacastEPKc
 libminuetinterfaces.so.0.3.0:_ZN6Minuet16ISoundController12pitchChangedEa
@@ -21,16 +18,10 @@ libminuetinterfaces.so.0.3.0:_ZN6Minuet16ISoundController20playbackLabelChangedE
 libminuetinterfaces.so.0.3.0:_ZN6Minuet16ISoundController8setStateENS0_5StateE
 libminuetinterfaces.so.0.3.0:_ZN6Minuet16ISoundControllerC1EP7QObject
 libminuetinterfaces.so.0.3.0:_ZN6Minuet16ISoundControllerC2EP7QObject
-libminuetinterfaces.so.0.3.0:_ZN6Minuet16ISoundControllerD0Ev
-libminuetinterfaces.so.0.3.0:_ZN6Minuet16ISoundControllerD1Ev
-libminuetinterfaces.so.0.3.0:_ZN6Minuet16ISoundControllerD2Ev
 libminuetinterfaces.so.0.3.0:_ZN6Minuet17IPluginController11qt_metacallEN11QMetaObject4CallEiPPv
 libminuetinterfaces.so.0.3.0:_ZN6Minuet17IPluginController11qt_metacastEPKc
 libminuetinterfaces.so.0.3.0:_ZN6Minuet17IPluginControllerC1EP7QObject
 libminuetinterfaces.so.0.3.0:_ZN6Minuet17IPluginControllerC2EP7QObject
-libminuetinterfaces.so.0.3.0:_ZN6Minuet17IPluginControllerD0Ev
-libminuetinterfaces.so.0.3.0:_ZN6Minuet17IPluginControllerD1Ev
-libminuetinterfaces.so.0.3.0:_ZN6Minuet17IPluginControllerD2Ev
 libminuetinterfaces.so.0.3.0:_ZN6Minuet19IExerciseController11qt_metacallEN11QMetaObject4CallEiPPv
 libminuetinterfaces.so.0.3.0:_ZN6Minuet19IExerciseController11qt_metacastEPKc
 libminuetinterfaces.so.0.3.0:_ZN6Minuet19IExerciseController18setCurrentExerciseE4QMapI7QString8QVariantE
@@ -38,9 +29,6 @@ libminuetinterfaces.so.0.3.0:_ZN6Minuet19IExerciseController22currentExerciseCha
 libminuetinterfaces.so.0.3.0:_ZN6Minuet19IExerciseController30selectedExerciseOptionsChangedE10QJsonArray
 libminuetinterfaces.so.0.3.0:_ZN6Minuet19IExerciseControllerC1EP7QObject
 libminuetinterfaces.so.0.3.0:_ZN6Minuet19IExerciseControllerC2EP7QObject
-libminuetinterfaces.so.0.3.0:_ZN6Minuet19IExerciseControllerD0Ev
-libminuetinterfaces.so.0.3.0:_ZN6Minuet19IExerciseControllerD1Ev
-libminuetinterfaces.so.0.3.0:_ZN6Minuet19IExerciseControllerD2Ev
 libminuetinterfaces.so.0.3.0:_ZN6Minuet5ICore11qt_metacallEN11QMetaObject4CallEiPPv
 libminuetinterfaces.so.0.3.0:_ZN6Minuet5ICore11qt_metacastEPKc
 libminuetinterfaces.so.0.3.0:_ZN6Minuet5ICore22soundControllerChangedEPNS_16ISoundControllerE
@@ -54,9 +42,6 @@ libminuetinterfaces.so.0.3.0:_ZN6Minuet7IPlugin11qt_metacallEN11QMetaObject4Call
 libminuetinterfaces.so.0.3.0:_ZN6Minuet7IPlugin11qt_metacastEPKc
 libminuetinterfaces.so.0.3.0:_ZN6Minuet7IPluginC1EP7QObject
 libminuetinterfaces.so.0.3.0:_ZN6Minuet7IPluginC2EP7QObject
-libminuetinterfaces.so.0.3.0:_ZN6Minuet7IPluginD0Ev
-libminuetinterfaces.so.0.3.0:_ZN6Minuet7IPluginD1Ev
-libminuetinterfaces.so.0.3.0:_ZN6Minuet7IPluginD2Ev
 libminuetinterfaces.so.0.3.0:_ZNK6Minuet13IUiController10metaObjectEv
 libminuetinterfaces.so.0.3.0:_ZNK6Minuet16ISoundController10metaObjectEv
 libminuetinterfaces.so.0.3.0:_ZNK6Minuet16ISoundController13playbackLabelEv
