@@ -5,11 +5,11 @@
 # Source0 file verified with key 0xBB463350D6EF31EF (heiko@shruuf.de)
 #
 Name     : minuet
-Version  : 22.08.3
-Release  : 25
-URL      : https://download.kde.org/stable/release-service/22.08.3/src/minuet-22.08.3.tar.xz
-Source0  : https://download.kde.org/stable/release-service/22.08.3/src/minuet-22.08.3.tar.xz
-Source1  : https://download.kde.org/stable/release-service/22.08.3/src/minuet-22.08.3.tar.xz.sig
+Version  : 22.12.0
+Release  : 26
+URL      : https://download.kde.org/stable/release-service/22.12.0/src/minuet-22.12.0.tar.xz
+Source0  : https://download.kde.org/stable/release-service/22.12.0/src/minuet-22.12.0.tar.xz
+Source1  : https://download.kde.org/stable/release-service/22.12.0/src/minuet-22.12.0.tar.xz.sig
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : GFDL-1.3 GPL-2.0
@@ -95,15 +95,15 @@ locales components for the minuet package.
 
 
 %prep
-%setup -q -n minuet-22.08.3
-cd %{_builddir}/minuet-22.08.3
+%setup -q -n minuet-22.12.0
+cd %{_builddir}/minuet-22.12.0
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1667855123
+export SOURCE_DATE_EPOCH=1670509514
 mkdir -p clr-build
 pushd clr-build
 export GCC_IGNORE_WERROR=1
@@ -119,7 +119,7 @@ make  %{?_smp_mflags}
 popd
 
 %install
-export SOURCE_DATE_EPOCH=1667855123
+export SOURCE_DATE_EPOCH=1670509514
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/minuet
 cp %{_builddir}/minuet-%{version}/COPYING %{buildroot}/usr/share/package-licenses/minuet/4cc77b90af91e615a64ae04893fdffa7939db84c || :
