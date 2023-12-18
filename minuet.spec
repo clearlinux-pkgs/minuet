@@ -8,11 +8,11 @@
 # Source0 file verified with key 0xBB463350D6EF31EF (heiko@shruuf.de)
 #
 Name     : minuet
-Version  : 23.08.3
-Release  : 40
-URL      : https://download.kde.org/stable/release-service/23.08.3/src/minuet-23.08.3.tar.xz
-Source0  : https://download.kde.org/stable/release-service/23.08.3/src/minuet-23.08.3.tar.xz
-Source1  : https://download.kde.org/stable/release-service/23.08.3/src/minuet-23.08.3.tar.xz.sig
+Version  : 23.08.4
+Release  : 41
+URL      : https://download.kde.org/stable/release-service/23.08.4/src/minuet-23.08.4.tar.xz
+Source0  : https://download.kde.org/stable/release-service/23.08.4/src/minuet-23.08.4.tar.xz
+Source1  : https://download.kde.org/stable/release-service/23.08.4/src/minuet-23.08.4.tar.xz.sig
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : GFDL-1.3 GPL-2.0
@@ -101,15 +101,15 @@ locales components for the minuet package.
 
 
 %prep
-%setup -q -n minuet-23.08.3
-cd %{_builddir}/minuet-23.08.3
+%setup -q -n minuet-23.08.4
+cd %{_builddir}/minuet-23.08.4
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1702033857
+export SOURCE_DATE_EPOCH=1702926603
 mkdir -p clr-build
 pushd clr-build
 export GCC_IGNORE_WERROR=1
@@ -168,7 +168,7 @@ FFLAGS="$CLEAR_INTERMEDIATE_FFLAGS"
 FCFLAGS="$CLEAR_INTERMEDIATE_FCFLAGS"
 ASFLAGS="$CLEAR_INTERMEDIATE_ASFLAGS"
 LDFLAGS="$CLEAR_INTERMEDIATE_LDFLAGS"
-export SOURCE_DATE_EPOCH=1702033857
+export SOURCE_DATE_EPOCH=1702926603
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/minuet
 cp %{_builddir}/minuet-%{version}/COPYING %{buildroot}/usr/share/package-licenses/minuet/4cc77b90af91e615a64ae04893fdffa7939db84c || :
